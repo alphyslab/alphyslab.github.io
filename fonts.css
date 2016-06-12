@@ -24,3 +24,12 @@
       url(fonts/undertale/papyrus.woff) format("woff"),
       url(fonts/undertale/papyrus.woff2) format("woff2");
 }
+
+@font-face{
+  font-family:Mercy;
+  src:url(fonts/undertale/mercy.eot);
+  src:url(fonts/undertale/mercy.ttf) format("truetype"),
+      url(fonts/undertale/mercy.svg#mercy) format("svg"),
+      url(fonts/undertale/mercy.woff) format("woff"),
+      url(fonts/undertale/mercy.woff2) format("woff2");
+}
