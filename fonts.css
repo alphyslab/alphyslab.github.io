@@ -15,3 +15,12 @@
       url(fonts/undertale/sans.woff) format("woff"),
       url(fonts/undertale/sans.woff2) format("woff2");
 }
+
+@font-face{
+  font-family:Papyrus;
+  src:url(fonts/undertale/papyrus.eot);
+  src:url(fonts/undertale/papyrus.ttf) format("truetype"),
+      url(fonts/undertale/papyrus.svg#papyrus) format("svg"),
+      url(fonts/undertale/papyrus.woff) format("woff"),
+      url(fonts/undertale/papyrus.woff2) format("woff2");
+}
