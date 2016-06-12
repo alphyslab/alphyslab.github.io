@@ -1,4 +1,8 @@
 @font-face{
   font-family:Determination;
-  src:url(fonts/undertale/determination.ttf);
+  src:url(fonts/undertale/determination.eot);
+  src:url(fonts/undertale/determination.ttf) format("truetype"),
+      url(fonts/undertale/determination.svg#determination) format("svg"),
+      url(fonts/undertale/determination.woff) format("woff"),
+      url(fonts/undertale/determination.woff2) format("woff2");
 }
