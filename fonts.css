@@ -6,3 +6,12 @@
       url(fonts/undertale/determination.woff) format("woff"),
       url(fonts/undertale/determination.woff2) format("woff2");
 }
+
+@font-face{
+  font-family:Sans;
+  src:url(fonts/undertale/sans.eot);
+  src:url(fonts/undertale/sans.ttf) format("truetype"),
+      url(fonts/undertale/sans.svg#sans) format("svg"),
+      url(fonts/undertale/sans.woff) format("woff"),
+      url(fonts/undertale/sans.woff2) format("woff2");
+}
