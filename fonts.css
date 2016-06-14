@@ -36,9 +36,9 @@
 
 @font-face{
   font-family:technicolour-3d
-  src:url(fonts/blocky/technicolour-3d.eot);
-  src:url(fonts/blocky/technicolour-3d.ttf) format("truetype"),
-      url(fonts/blocky/technicolour-3d.svg#technicolour-3d) format("svg"),
-      url(fonts/blocky/technicolour-3d.woff) format("woff"),
-      url(fonts/blocky/technicolour-3d.woff2) format("woff2");
+  src:url(diamondlooter.github.io/fonts/blocky/technicolour-3d.eot);
+  src:url(diamondlooter.github.io/fonts/blocky/technicolour-3d.ttf) format("truetype"),
+      url(diamondlooter.github.io/fonts/blocky/technicolour-3d.svg#technicolour-3d) format("svg"),
+      url(diamondlooter.github.io/fonts/blocky/technicolour-3d.woff) format("woff"),
+      url(diamondlooter.github.io/fonts/blocky/technicolour-3d.woff2) format("woff2");
 }
