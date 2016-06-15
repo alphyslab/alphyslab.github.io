@@ -1,9 +1,6 @@
+var page;
 function nextPage(){
-  var page;
   page++;
-  if (page == NaN){
-    page = 1
-  }
   document.location.reload();
 }
 function prevPage(){
@@ -24,4 +21,7 @@ function update(element){
 update("page" + page);
 if (document.cookie !== "page=" + page) {
   document.cookie = "page=" + page;
+}
+if (page == NaN){
+  page = 1;
 }
