@@ -1,4 +1,4 @@
-var page = 1;
+var page;
 function nextPage(){
   page++;
 }
