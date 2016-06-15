@@ -10,7 +10,7 @@ $(document).ready(function(){
  });
  $("#js").on('change',function(){
   p.find("#subinsbdotcomjspr").remove();
-  p.append('<script id="subinsbdotcomjspr">'+$(this).val()+'</script>');
+  var app = document.createElement('<script>'); add.id = 'subinsbdotcomjspr'; document.getElementById('subinsbdotcomjspr').innerHtml = $("#js").val(); p.append(app);;
  });
  $("#upjs").on('click',function(){
   p.find("#subinsbdotcomjspr").remove();
