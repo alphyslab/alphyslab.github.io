@@ -1,4 +1,7 @@
 var page;
+if (document.cookie){
+  page = document.cookie.substring(5);
+}
 function nextPage(){
   page++;
   document.location.reload();
