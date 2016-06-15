@@ -14,7 +14,7 @@ function toggle_visibility(id) {
   }
 }
 function update(element){
-  document.location.reload;
   toggle_visibility(element);
 }
 update("page" + page);
+document.location = "?page=" + page
