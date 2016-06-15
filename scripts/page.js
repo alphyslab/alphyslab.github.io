@@ -15,6 +15,7 @@ function toggle_visibility(id) {
   } else {
     e.style.display = 'block';
   }
+}
 function update(element){
   document.location.reload;
   toggle_visibility(element);
