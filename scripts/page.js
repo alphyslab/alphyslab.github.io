@@ -5,9 +5,12 @@ function nextPage(){
 function prevPage(){
   page--;
 }
-document.location = "?page=" + page;
-if (document.getElementById("page" + page) && document.getElementById("page" + page).style.visibility = "none"){
-  document.getElementById("page" + page).style.visibility = "visible";
-}else{
-  document.getElementById("page" + page).style.visibility = "none"
+function update(element){
+  document.location = "?page=" + page;
+  if (document.getElementById(element) && document.getElementById(element).style.visibility = "none"){
+    document.getElementById(element).style.visibility = "visible";
+  }else{
+    document.getElementById(element).style.visibility = "none";
+  }
 }
+update("page" + 1);
