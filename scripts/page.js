@@ -5,9 +5,6 @@ function nextPage(){
 function prevPage(){
   page--;
 }
-for (i=0; document.getElementById("page" + i) ; i++){
-  document.getElementById("page" + i).style.visibility = "none";
-}
 function toggle_visibility(id) {
   var e = document.getElementById(id);
   if (e.style.display == 'block'){
