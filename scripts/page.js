@@ -25,6 +25,6 @@ update("page" + page);
 if (document.cookie !== "page=" + page) {
   document.cookie = "page=" + page;
 }
-if (page == NaN){
+if (page == undefined){
   page = 1;
 }
