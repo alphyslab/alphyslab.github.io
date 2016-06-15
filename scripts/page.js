@@ -8,12 +8,15 @@ function prevPage(){
 for (i=0; document.getElementById("page" + i) ; i++){
   document.getElementById("page" + i).style.visibility = "none";
 }
+function toggle_visibility(id) {
+  var e = document.getElementById(id);
+  if (e.style.display == 'block'){
+    e.style.display = 'none';
+  } else {
+    e.style.display = 'block';
+  }
 function update(element){
   document.location.reload;
-  if (document.getElementById(element) && document.getElementById(element).style.visibility = "none"){
-    document.getElementById(element).style.visibility = "block";
-  }else{
-    document.getElementById(element).style.visibility = "none";
-  }
+  toggle_visibility(element);
 }
 update("page" + page);
