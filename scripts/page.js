@@ -22,7 +22,7 @@ function update(element){
   toggle_visibility(element);
 }
 update("page" + page);
-if (document.cookie !== "page=" + page) {
+if (document.cookie != "page=" + page) {
   document.cookie = "page=" + page;
 }
 if (page == undefined){
