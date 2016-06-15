@@ -1,9 +1,11 @@
-var page;
 function nextPage(){
+  var page;
   page++;
+  document.location.reload();
 }
 function prevPage(){
   page--;
+  document.location.reload()
 }
 function toggle_visibility(id) {
   var e = document.getElementById(id);
