@@ -16,4 +16,4 @@ function update(element){
     document.getElementById(element).style.visibility = "none";
   }
 }
-update("page" + 1);
+update("page" + page);
