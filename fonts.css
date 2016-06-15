@@ -33,8 +33,3 @@
       url(fonts/undertale/mercy.woff) format("woff"),
       url(fonts/undertale/mercy.woff2) format("woff2");
 }
-
-@font-face{
-  font-family:technicolour-3d
-  src:url(fonts/blocky/technicolour-3d.ttf);
-}
