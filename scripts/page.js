@@ -17,9 +17,6 @@ function update(element){
   toggle_visibility(element);
 }
 update("page" + page);
-if (document.location == "?page=" + page) {
-  print('no reload');
-} else {
+if (document.location != "?page=" + page) {
   document.location = "?page=" + page;
-}
 }
